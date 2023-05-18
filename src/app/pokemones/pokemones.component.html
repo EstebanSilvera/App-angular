@@ -1,0 +1,19 @@
+
+<body style="background-color:aquamarine">
+  <br>
+  <div > 
+    <br>
+    <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; align-items: center;" class="container" >
+            <div *ngFor="let poke of pokemones">
+                <div class="card">
+                    <div class="card-body">
+                      <h2 class="card-title">{{poke.name}}</h2>
+                      <p class="card-text"></p>
+                      <a class="btn btn-primary">{{poke.url}}</a>
+                    </div>
+                  </div><br>
+            </div>
+    </div>
+</div>
+  
+</body>

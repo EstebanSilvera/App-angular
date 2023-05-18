@@ -1,0 +1,21 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Correo</th>
+      </tr>
+    </thead>
+
+    <tbody *ngFor=" let personal of dataSource">
+      <tr>
+        <th scope="row">{{personal.position}}</th>
+        <td>{{personal.nombre}}</td>
+        <td>{{personal.edad}}</td>
+        <td>{{personal.correo}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
